@@ -5,7 +5,6 @@
 
     Exemplo:
         Se um dado apenas pode ser utilizado dentro de uma função então o seu escopo é a função.
-
 ]]
 
 -- Utilizando o 'do' podemos definir um espaço no código que possui o seu próprio escopo.
@@ -26,7 +25,6 @@ end
 
     E se quisessemos utilizar esse dado fora da função?
         Precisamos retornar esse dado.
-
 ]]
 
 -- Parametros -> Locais

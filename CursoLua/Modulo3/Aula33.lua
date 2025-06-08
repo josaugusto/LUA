@@ -11,5 +11,3 @@
         Quando uma função termina, ela é removida (ou "desempilhada") do topo da pilha, e o controle retorna para a função que a chamou.
         
 ]]
-
--- Não vi muita útilidade nessa biblioteca visto que existe o debug do próprio Visual Code

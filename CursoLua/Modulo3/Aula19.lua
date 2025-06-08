@@ -4,9 +4,7 @@
 
     Elas retornam funções chamadas *iteradores*, que permitem criar loops que executam um bloco de código para cada elemento da tabela.
 
-    -----------------------------------------------------------
     Iteradores:
-
         pairs():
             - Usado para percorrer **tabelas associativas**, ou seja, tabelas com chaves que podem ser de qualquer tipo (string, número, etc.).
             - Itera sobre **todos os pares chave-valor** da tabela, em **ordem indefinida**.
@@ -16,7 +14,6 @@
             - Usado para percorrer **tabelas com índices numéricos sequenciais**, como listas ou arrays.
             - Itera de forma **ordenada e crescente**, começando do índice 1 até o primeiro índice com valor `nil`.
             - Ideal para tabelas organizadas como listas ordenadas.
-
 ]]
 
 local frutas = {

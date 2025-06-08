@@ -43,13 +43,13 @@
             Similar ao pcall(), mas permite especificar uma função de tratamento de erros (error handler). Útil quando é necessário executar uma lógica específica sempre que um erro ocorre.
 ]]
 
-function divide(a, b)
+local function divide(a, b)
     return a / b
 end
 
 print(divide(15, 0)) -- erro
 
-function raiz(x)
+local function raiz(x)
     assert(x >=0, "Nao tem raiz quadrada de numero negativo!") -- Exibe se a condição for falsa.
     return math.sqrt(x)
 end

@@ -8,7 +8,6 @@
             Parêmetros / Argumento
 
             Retorno
-
 ]]
 
 local function nome()

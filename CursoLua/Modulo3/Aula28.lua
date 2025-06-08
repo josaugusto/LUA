@@ -79,5 +79,4 @@ exibir(raiz)
         ...
 ]]
 
--- Focar mais nisso depois, estudar mais a fundo algoritmos e estruturas de dados
 

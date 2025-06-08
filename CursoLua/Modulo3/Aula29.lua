@@ -37,9 +37,7 @@
         ▪ coroutine.wrap(func)
             Cria uma coroutine como `create`, mas retorna uma função.
             Ao chamar essa função, a coroutine é executada (sem usar `resume` diretamente).
-
 ]]
-
 
 -- Exemplo Prático:
 
