@@ -1,5 +1,6 @@
 --[[
-    Crie uma tabela chamada aluno que armazena as seguintes informações de um estudante: nome, idade e curso. Imprima cada uma dessas informações no console.
+    Crie uma tabela chamada aluno que armazena as seguintes informações de um estudante: nome, idade e curso. 
+    Imprima cada uma dessas informações no console.
 ]]
 
 local aluno = {

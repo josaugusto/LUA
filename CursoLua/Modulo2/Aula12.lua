@@ -8,15 +8,15 @@
             return
             continue (Implementado apenas em alguns ambientes)
         
-        Razões para não usar o comando Goto:
-            
-            Dificulta a legibilidade do código
-            Dificulta a manutenção
-            Leva a código amaranhado e desorganizado
-            Existem alternativas
-            Pode introduzir bugs difíceis de rastrear
-            Raramente é necessário
-            Vai contra a natureza da programação
+    Razões para não usar o comando Goto:
+
+        Dificulta a legibilidade do código
+        Dificulta a manutenção
+        Leva a código amaranhado e desorganizado
+        Existem alternativas
+        Pode introduzir bugs difíceis de rastrear
+        Raramente é necessário
+        Vai contra a natureza da programação
 ]]
 
 ::inicio::

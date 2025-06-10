@@ -1,9 +1,6 @@
 --[[
-
     Manipulação de Arquivos
         A manipulação de arquivos em Lua é feita utilizando a biblioteca padrão de IO (Input/Output).
-
-        Foi anteriormente utilizada para obter entradas do usuário.
         
         Manipulação de Arquivos:
             Abrir e fechar um arquivo
@@ -28,9 +25,7 @@
                 w+ -> leitura e escrita (sobrescreve o conteúdo)
                 a+ -> leitura e apêndice
         
-        
         local file = io.open("arquivo.txt", "r")
-
 
         -- Leitura de um arquivo
 
@@ -47,7 +42,6 @@
             local conteudo = file:write("O que escreever")
 ]]  
 
-
 -- Manipulação de Arquivos
 
 -- Abrir o arquivo (r, w, a, r+, w+, a+)
@@ -60,4 +54,3 @@ else
     print("Arquivo criado com sucesso!")
     file:close()
 end
-

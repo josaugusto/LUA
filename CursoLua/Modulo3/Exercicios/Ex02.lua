@@ -14,4 +14,3 @@ local media = soma / 5
 print("MEDIA: " .. media)
 
 -- Completed
-

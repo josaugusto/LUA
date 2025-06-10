@@ -1,8 +1,7 @@
 --[[
-
     As funções pairs() e ipairs() em Lua são utilizadas para percorrer (iterar) os elementos de uma tabela.
-
-    Elas retornam funções chamadas *iteradores*, que permitem criar loops que executam um bloco de código para cada elemento da tabela.
+    Elas retornam funções chamadas *iteradores*, que permitem criar loops que executam um bloco de código para 
+    cada elemento da tabela.
 
     Iteradores:
         pairs():
@@ -48,5 +47,3 @@ while chave_2 do
     print(chave_2, valor_2)
     chave_2, valor_2 = iterador_2(tabela_2, chave_2)
 end
-
--- Melhore essa explicação ai para mim.

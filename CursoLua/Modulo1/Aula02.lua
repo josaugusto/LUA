@@ -4,14 +4,12 @@
     Tipos de Dados
 
         Tipos Básicos
-
             nil
             number
             string
             boolean
 
         Outros Tipos:
-
             Table, Function, Userdata, Thread, ...
 ]]
 

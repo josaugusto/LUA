@@ -6,8 +6,7 @@
     Pilha de Chamadas
         Armazena as funções que foram chamadas e ainda não terminaram de executar.
 
-        Cada vez que uma função é chamada, o ambiente de execução (como o interpretador Lua) coloca essa chamada de função no topo da piçha.
+        Cada vez que uma função é chamada, o ambiente de execução (como o interpretador Lua) coloca essa chamada de função no topo da pilha.
 
         Quando uma função termina, ela é removida (ou "desempilhada") do topo da pilha, e o controle retorna para a função que a chamou.
-        
 ]]

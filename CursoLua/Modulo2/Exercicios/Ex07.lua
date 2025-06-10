@@ -1,6 +1,5 @@
 -- Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar.
 
-
 io.write("Insira o primeiro numero: ") local num_1 = tonumber(io.read())
 io.write("Insira o segundo numero: ") local num_2 = tonumber(io.read())
 

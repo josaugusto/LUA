@@ -23,12 +23,9 @@ end
 -- ... = valores 
 nome(10, 20, 30, 40)
 
-
--- Função Select()
--- A função select() permite selecionar valores de um conjunto:
+-- A Função Select() permite selecionar valores de um conjunto:
 -- Seleciona todos os parâmetros
 -- select('#', ...)
-
 -- Seleciona uma quantidade de parâmetros
 -- select(n, ...)
 

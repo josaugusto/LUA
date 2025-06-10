@@ -1,7 +1,5 @@
---[[
-    Matrizes
-        É uma tabela em que os valores são outras tabelas. São necessários dois índices para especificar um valor.
-]]
+-- Matrizes
+    -- É uma tabela em que os valores são outras tabelas. São necessários dois índices para especificar um valor.
 
 local matriz_1 = {
     [1] = {1, 2, 3, 4},
@@ -23,12 +21,9 @@ local matriz_2 = {
 print(matriz_2[1][1]) -- Jose
 print(matriz_2[2][1]) -- 22
 
---[[
-    Sets / Conjuntos
-        É uma tabela em que as chaves são os elementos do conjunto e os valores são true.
-]]
 
 -- Sets / Conjuntos
+    -- É uma tabela em que as chaves são os elementos do conjunto e os valores são true.
 
 local conjunto = {}
 

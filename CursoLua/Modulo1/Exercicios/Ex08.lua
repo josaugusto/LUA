@@ -5,4 +5,3 @@ local area = math.pi * raio^2
 print("Area eh igual a: " .. area)
 
 -- Completed
-

@@ -1,5 +1,6 @@
 --[[
-    Crie uma função que recebe uma tabela e uma função de filtro. A função filtra deve retornar uma nova tabela contendo apenas os elementos que satisfazem a condição definida pela função de filtro.
+    Crie uma função que recebe uma tabela e uma função de filtro. A função filtra deve retornar uma nova 
+    tabela contendo apenas os elementos que satisfazem a condição definida pela função de filtro.
 
     Ex: Use para encontrar apenas os números pares de uma tabela.
 ]]

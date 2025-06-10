@@ -1,5 +1,4 @@
 --[[
-
     O que é uma Biblioteca?
         Uma biblioteca é um conjunto de funções sobre um determinado tópico que permitem realizar diversas operações.
 

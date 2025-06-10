@@ -1,19 +1,15 @@
 --[[
-    Uma função recursiva é uma função que chama a si mesma.
-    Esse tipo de função é útil para resolver problemas que podem ser divididos
-    em subproblemas menores semelhantes ao problema original, como:
+    Uma função recursiva é uma função que chama a si mesma. Esse tipo de função é útil para resolver problemas 
+    que podem ser divididos em subproblemas menores semelhantes ao problema original, como:
 
-    - Cálculo de fatoriais
-    - Sequência de Fibonacci
-    - Percursos em estruturas de dados como árvores e grafos
+        - Cálculo de fatoriais
+        - Sequência de Fibonacci
+        - Percursos em estruturas de dados como árvores e grafos
 
-    A recursão precisa de uma **condição de parada** (caso base), 
-    para evitar chamadas infinitas e estouro da pilha (stack overflow).
+    A recursão precisa de uma **condição de parada** (caso base), para evitar chamadas infinitas e estouro da pilha (stack overflow).
 ]]
 
 -- Exemplo simples.
-
-local num = 0
 
 local num = 0
 
@@ -27,8 +23,6 @@ end
 
 nome()
 
-
-
 -- 5! = 5*4*3*2*1 = 120
 
 local function fatorial(num)
@@ -41,7 +35,6 @@ end
 -- As chamadas de função são empilhadas.
 
 --[[
-
 fatorial(5)
   → 5 * fatorial(4)
      → 4 * fatorial(3)
@@ -58,6 +51,4 @@ fatorial(5)
 -- fatorial(4) = 4 * 6 = 24
 -- fatorial(5) = 5 * 24 = 120
 
-
 print(fatorial(5))
-

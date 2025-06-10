@@ -1,10 +1,8 @@
 --[[
     Loop For Genérico
         O loop for genérico percorre elementos em uma estrutura de dados como operador 'in'.
-
-        Executa um bloco de código para cada valor existente na estrutura.
-
-        A cada iteração do loop, os valores da tabela são lidos sequencialmente dependendo do iterador.
+        Executa um bloco de código para cada valor existente na estrutura. A cada iteração do loop, 
+        os valores da tabela são lidos sequencialmente dependendo do iterador.
 ]]
 
 local frutas = {

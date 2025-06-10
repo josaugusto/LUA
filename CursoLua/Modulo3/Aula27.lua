@@ -27,14 +27,6 @@ local function mostrar_fila(fila)
     end
 end
 
-enfileirar(fila, 10)
-enfileirar(fila, 20)
-enfileirar(fila, 30)
-mostrar_fila(fila)
-local removido = desenfileirar(fila)
-mostrar_fila(fila)
-
-
 --[[
     Pilhas
         Pilhas são estruturas de dados onde os elementos estão organizados em uma pilha.
@@ -61,11 +53,3 @@ local function mostrar_pilha(pilha)
         print(pilha[i])
     end
 end
-
-empilhar(pilha, 1)
-empilhar(pilha, 2)
-empilhar(pilha, 3)
-mostrar_pilha(pilha)
-local topo = desempilhar(pilha)
-print("Elemento removido da Pilha: " .. topo)
-mostrar_pilha(pilha)

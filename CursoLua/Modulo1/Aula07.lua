@@ -12,8 +12,6 @@
             \" - Gerar aspa dupla
             ...
 
-        A manipulação de string em Lua é possível através de operadores e da biblioteca string.
-
         Funções da biblioteca String:
 
             string.upper(s)

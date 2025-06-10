@@ -15,7 +15,6 @@
             Mesmo com o teste lógico do loop verdadeiro o código pode sofrer uma interrupção forçada até através do jumpstatement break.
 ]]
 
-
 -- Loop While
 
 local contador = 0 
@@ -43,7 +42,6 @@ while i <= 10 do
 end
 
 -- Loop repeat
-
 -- Repita tal coisa ATÉ QUE a [Condição] seja verdadeira
 -- O código é executado pelo menos um vez, diferente do while
 -- Loop Do-While

@@ -3,20 +3,17 @@
     
     Tipos de Operadores
 
-        Operador de Atribuição
-
+        Operador de Atribuição 
             =
 
         Operadores Aritméticos
-
-            São operadores utilizados para calculos aritméticos entre dois valores. Exemplos:
-                + (Adição)
-                - (Subtração / Negativo quando é usado como operador unário)
-                * (Multiplicação)
-                / (Divisão)
-                // (Divisão Inteira)
-                % (Módulo / Resto da Divisão)
-                ^ (Exponenciação)
+            + (Adição)
+            - (Subtração / Negativo quando é usado como operador unário)
+            * (Multiplicação)
+            / (Divisão)
+            // (Divisão Inteira)
+            % (Módulo / Resto da Divisão)
+            ^ (Exponenciação)
 
         Operadores Relacionais
             >, <, >=, <=

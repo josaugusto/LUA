@@ -13,7 +13,6 @@ end
 local SaudarPT = criarSaudacao("Ola")
 print(SaudarPT("Pedro"))
 
-
 local function contador()
     local count = 0
     return function()
@@ -27,18 +26,12 @@ local meu_contador = contador()
 --print(meu_contador())
 --print(meu_contador())
 
-
 local function criar_multiplicador(fator)
     return function (numero)
         return numero * fator
     end
 end
 
-
 local multiplicador = criar_multiplicador(2) -- Cria um multiplicador de 2
 print(multiplicador(2))
 print(multiplicador(3))
-
-
-
-

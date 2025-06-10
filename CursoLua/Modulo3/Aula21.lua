@@ -1,12 +1,10 @@
 --[[
     Funções
-        Funções são estruturas que armazenam um bloco de código que realiza uma tarefa especifica.
-
-        print(), ipairs(), math.max(), são exemplos de funções.
+        Funções são estruturas que armazenam um bloco de código que realiza uma tarefa especifica. print(), ipairs(), math.max(), 
+        são exemplos de funções.
 
         Estão normalmente acompanhadas de:
             Parêmetros / Argumento
-
             Retorno
 ]]
 

@@ -1,7 +1,5 @@
 --[[
-    Todos os valores e dados podem ser locais ou globais.
-
-    O seu local e espaço de uso determina o seu escopo.
+    Todos os valores e dados podem ser locais ou globais. O seu local e espaço de uso determina o seu escopo.
 
     Exemplo:
         Se um dado apenas pode ser utilizado dentro de uma função então o seu escopo é a função.

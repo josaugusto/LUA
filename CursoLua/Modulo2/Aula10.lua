@@ -2,11 +2,10 @@
     Operadores Lógicos
         Operadores Lógicos permitem combinar duas expresões booleanas. Podem ser utilizados para comparar dois valores booleanos ou expressões relacionais.
 
-        Operadores:
-            'AND' -> Tradução: 'e'
-            'OR' -> Tradução: 'ou'
-            'NOT' -> Tradução 'não'
-
+    Operadores:
+        'AND' -> Tradução: 'e'
+        'OR' -> Tradução: 'ou'
+        'NOT' -> Tradução 'não'
 ]]
 
 -- Conjunção:
