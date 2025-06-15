@@ -1,18 +1,16 @@
 --[[
-
     METAMÉTODOS E OBJETOS EM LUA
 
     Em Lua, objetos são representados como tabelas. Com o uso de metatables,
     é possível criar comportamentos mais sofisticados, como herança e encapsulamento.
 
-    ▸ __index:
+    __index(table, value):
         Usado para definir o que acontece quando tentamos acessar um campo que não existe na tabela.
         Pode ser uma função (chamada com a tabela e a chave) ou uma outra tabela (usada como fallback).
 
-    ▸ __newindex:
+    __newindex(table, index, value):
         Usado quando tentamos **atribuir** um valor a um campo que ainda não existe na tabela.
         Permite interceptar essa atribuição para redirecioná-la, registrá-la ou bloqueá-la.
-
 ]]
 
 -- Exemplo com __index (HERANÇA SIMPLES)
@@ -58,5 +56,3 @@ print(t_2.valor) --> nil (valor não foi salvo porque não foi atribuído)
 
 -- Para permitir a atribuição, basta adicionar dentro da função:
 -- tabela[chave] = valor
-
-

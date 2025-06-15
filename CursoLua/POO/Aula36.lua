@@ -1,6 +1,5 @@
 --[[
     Metatables permitem que os desenvolvedores alterem o comportamento de tabelas de forma flexível e poderosa.
-
     Usadas principalmente para definir como as tabelas devem reagir a operações específicas.
 
     Metatable:
@@ -11,45 +10,43 @@
         
         ACESSO E ATRIBUIÇÃO DE CAMPOS
 
-        __index
+        __index(table, index)
             Chamado quando tentamos acessar um campo inexistente.
             Pode ser uma tabela (que será consultada) ou uma função (que será chamada).
 
-        __newindex
+        __newindex(table, index, value)
             Chamado ao tentar atribuir um valor a um campo inexistente.
             Pode ser usado para redirecionar ou registrar modificações.
         
         OPERADORES ARITMÉTICOS
 
-            __add    (a + b)
-            __sub    (a - b)
-            __mul    (a * b)
-            __div    (a / b)
-            __mod    (a % b)
-            __pow    (a ^ b)
-            __unm    (-a)       operador unário "menos"
-            __concat (a .. b)   concatenação de strings
+            __add(table, value)    (a + b)
+            __sub(table, value)    (a - b)
+            __mul(table, value)    (a * b)
+            __div(table, value)    (a / b)
+            __mod(table, value)    (a % b)
+            __pow(table, value)    (a ^ b)
+            __unm(table)    (-a)       operador unário "menos"
+            __concat(table, value) (a .. b)   concatenação de strings
 
             Cada um desses métodos define como a tabela se comporta ao ser usada
             com o operador correspondente. Os operandos são passados como argumentos.
 
         OPERADORES RELACIONAIS
 
-            __eq  (a == b)
-            __lt  (a < b)
-            __le  (a <= b)
-
-            Permitem personalizar comparações entre tabelas. Devem estar definidos em ambas as metatables para funcionarem corretamente.
+            __eq(table, value)  (a == b)
+            __lt(table, value)  (a < b)
+            __le(table, value)  (a <= b)
 
         OUTROS METAMÉTODOS IMPORTANTES
 
-            __tostring
+            __tostring(table)
                 Define como a tabela será convertida para string (ex: print(t)).
 
-            __len
+            __len(table)
                 Define o resultado do operador de comprimento (#t).
 
-            __call
+            __call(table, ...)
                 Permite que a tabela seja chamada como uma função (t()).
 
             __metatable
