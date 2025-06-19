@@ -13,8 +13,6 @@
         Permite interceptar essa atribuição para redirecioná-la, registrá-la ou bloqueá-la.
 ]]
 
--- Exemplo com __index (HERANÇA SIMPLES)
-
 local fallback = {
     n3 = 10
 }
@@ -44,15 +42,37 @@ print(fallback.n3) --> 10 (continua intacto)
 local t_2 = {}
 
 setmetatable(t_2, {
-    __newindex = function(tabela, chave, valor)
+    __newindex = function(self, chave, valor)
         print("Tentativa de adicionar nova chave: " .. chave .. " = " .. tostring(valor))
-        -- O valor não será realmente adicionado, pois não atribuimos manualmente
-        -- Ex: tabela[chave] = valor  ← isso precisaria ser feito dentro da função
+        rawset(self, chave, valor)
     end
 })
 
 t_2.valor = 50  --> Tentativa de adicionar nova chave: valor = 50
 print(t_2.valor) --> nil (valor não foi salvo porque não foi atribuído)
 
--- Para permitir a atribuição, basta adicionar dentro da função:
--- tabela[chave] = valor
+
+--[[
+  RAWGET() E RAWSET() 
+    Funções nativas de Lua usadas para acessar e modificar tabelas 
+    diretamente, ignorando os metamétodos __index e __newindex.
+]]
+
+-- =====================
+-- rawget(table, key)
+-- =====================
+
+-- Usado para acessar uma chave da tabela sem acionar __index.
+
+-- ========================
+-- rawset(table, key, value)
+-- ========================
+
+-- Usado para definir uma chave da tabela sem acionar __newindex.
+
+-- ======================
+-- Quando usar?
+-- ======================
+-- - Ao implementar bibliotecas com metatables.
+-- - Para evitar loops recursivos ou acessar dados reais.
+-- - Para manipular tabelas em ambientes restritos ou seguros.
