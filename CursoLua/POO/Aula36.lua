@@ -47,7 +47,10 @@
                 Define o resultado do operador de comprimento (#t).
 
             __call(table, ...)
-                Permite que a tabela seja chamada como uma função (t()).
+                Permite que a tabela seja chamada como uma função ( table(...) ). 
+
+                    table: a tabela que está sendo chamada.
+                    ...: os argumentos passados na chamada.
 
             __metatable
                 Protege a metatable de acesso externo via getmetatable(t).
