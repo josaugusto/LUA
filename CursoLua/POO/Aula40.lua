@@ -66,7 +66,6 @@ print(u:getNome())           -- Maria
 print(u:autenticar("1234"))  -- true
 print(u.senha) -- nil 
 
-
 -- Estática
     -- Não necessita de objetos
 

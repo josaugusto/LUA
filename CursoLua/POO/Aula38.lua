@@ -23,7 +23,6 @@ function classe1.new() -- criar um novo objeto
     return self
 end
 
-
 local obj1 = classe1.new()
 local obj2 = classe1.new()
 

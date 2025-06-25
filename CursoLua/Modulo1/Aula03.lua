@@ -3,8 +3,7 @@
     
     Tipos de Operadores
 
-        Operador de Atribuição 
-            =
+        Operador de Atribuição (=)
 
         Operadores Aritméticos
             + (Adição)
@@ -21,9 +20,8 @@
         Operadores lógicos
             and, or, not
 
-        Operador de Cumprimento
-            #
-
+        Operador de Cumprimento (#)
+           
         Operador de Concatenação (..)
             Serve para unir strings (Textos)
 ]]

@@ -46,6 +46,7 @@ local function memoize(f)
     end
 end
 
+---@diagnostic disable-next-line
 fibonacci_2 = memoize(function (num)
     if num <= 1 then
         return num

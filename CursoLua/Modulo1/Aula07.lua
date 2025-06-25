@@ -2,24 +2,22 @@
     Manipulação de Strings #1
         A manipulação de string em Lua é possível através de operadores e da biblioteca string.
 
-        Escape sequences 
+        Escape Sequences 
             São utilizados para representar caracteres especiais em strings. Inseridos diretamente na mesma.
 
-        Exemplo:
-            \n - Quebra de Linha
-            \t - Tabulação
-            \\ - Gerar uma barra invertida
-            \" - Gerar aspa dupla
-            ...
+            Exemplo:
+                \n - Quebra de Linha
+                \t - Tabulação
+                \\ - Gerar uma barra invertida
+                \" - Gerar aspa dupla
+                ...
 
         Funções da biblioteca String:
-
             string.upper(s)
             string.lower(s)
             string.format()
             ...
 ]]
-
 
 -- Operadores:
 

@@ -2,11 +2,11 @@
     Goto
         O comando goto permite realizar o redirecionamento de código para labels. É um exemplo de uma jump statements.
 
-        Jump Statements:
-            goto
-            break
-            return
-            continue (Implementado apenas em alguns ambientes)
+    Jump Statements:
+        goto
+        break
+        return
+        continue (Implementado apenas em alguns ambientes)
         
     Razões para não usar o comando Goto:
 
@@ -30,4 +30,3 @@ if num > 10 or num < 0 then
 else
     print("Numero aceito!")
 end
-

@@ -1,7 +1,6 @@
 --[[
     Estruturas de Repetição
         Estruturas de repetição permitem repetir um bloco de código um determinado número de vezes.
-        
         O bloco de código a ser repetido está sujeito a uma condição.
 
         Se a condição for verdadeira o bloco de código será executado, verificando de novo a veracidade da condição.
@@ -51,5 +50,3 @@ repeat
     print("Ola, Mundo! " .. x)
     x = x + 1
 until x == 10
-
-

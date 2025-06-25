@@ -53,3 +53,5 @@ collectgarbage("collect")  -- Força a liberação de memória
 
 print("Memoria após a coleta:")
 print(collectgarbage("count"))
+
+-- Revisar esse conteúdo depois.
