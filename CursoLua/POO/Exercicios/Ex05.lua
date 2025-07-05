@@ -87,3 +87,5 @@ minhaBiblioteca:buscarLivro("Dracula") -- O livro de titulo: Dracula foi encontr
 minhaBiblioteca:buscarLivro("Colarine") -- O livro de titulo: Colarine Nao foi encontrado!
 minhaBiblioteca:adicionarLivro(livro2)
 minhaBiblioteca:buscarLivro("Colarine") -- O livro de titulo: Colarine foi encontrado! 
+
+-- Completed
