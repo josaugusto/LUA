@@ -39,7 +39,7 @@ function Livro.novoLivro(titulo, autor)
     self.autor = autor
     local disponivel = "disponivel"
 
-    function self.informacoes()
+    function self.info()
         print("O livro " .. self.titulo .. " do autor(a) " .. self.autor .. " Se encontra " .. disponivel .. "!")
     end
 
