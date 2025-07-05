@@ -69,3 +69,5 @@ gato1:emitirSom() -- Miau
 
 print(cachorro1 == gato1) -- false
 print(cachorro1 == cachorro1) -- true
+
+-- Completed
