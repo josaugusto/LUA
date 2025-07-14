@@ -1,5 +1,5 @@
 --[[
-    METAMÉTODOS E OBJETOS EM LUA
+    Metamétodos e Objetos em Lua
 
     Em Lua, objetos são representados como tabelas. Com o uso de metatables,
     é possível criar comportamentos mais sofisticados, como herança e encapsulamento.
